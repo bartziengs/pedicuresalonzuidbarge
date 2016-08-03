@@ -17,6 +17,9 @@ and open the template in the editor.
   .img-circle:hover {
     opacity: 0.5; }
 
+body {
+  counter-reset: counter; }
+
 #prijslijst h2 {
   text-align: center; }
 
@@ -103,23 +106,51 @@ footer {
   #fotospraktijk .row {
     margin-bottom: 0px; } }
 #lijstbehandel ol {
-  color: #ccc;
-  vertical-align: middle; }
-#lijstbehandel ol li {
+  counter-reset: li;
+  /* Initiate a counter */
+  list-style: none;
+  /* Remove default numbering */
+  *list-style: decimal;
+  /* Keep using default numbering for IE6/7 */
+  font: 15px 'trebuchet MS', 'lucida sans';
+  padding: 0;
+  margin-bottom: 4em;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5); }
+#lijstbehandel .rounded-list li {
   position: relative;
-  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
-  margin-bottom: 20px; }
-#lijstbehandel li p {
-  font: 12px/1.5 Helvetica, sans-serif;
-  padding-left: 60px;
-  color: #555;
-  vertical-align: center; }
-#lijstbehandel span {
-  position: absolute; }
+  display: block;
+  padding: .4em .4em .4em 2em;
+  *padding: .4em;
+  margin: .5em 0;
+  background: #ddd;
+  color: #111;
+  text-decoration: none;
+  border-radius: .3em;
+  transition: all .3s ease-out; }
+#lijstbehandel .rounded-list li:hover {
+  background: #eee; }
+#lijstbehandel .rounded-list li:hover:before {
+  transform: rotate(360deg); }
+#lijstbehandel .rounded-list li:before {
+  content: counter(li);
+  counter-increment: li;
+  position: absolute;
+  left: -1.3em;
+  top: 50%;
+  margin-top: -1.3em;
+  background: #1c1c1c;
+  width: 2em;
+  line-height: 2em;
+  border: .3em solid #fff;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 2em;
+  transition: all .3s ease-out;
+  color: #fff; }
 
 /*
 .jumbotron{
-    .container{
+    .container{   
         border: 1px solid #1c1c1c;
         background-color: #fff;
         opacity: 0.4;

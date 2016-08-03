@@ -1,0 +1,189 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-jul-2016, 16:21:58
+    Author     : Bart Ziengs
+*/
+
+/* Sweep To Right */
+.img-circle{
+    border-radius: 50%;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     width:75%;
+     display:inline-block;
+     padding:2px;
+     &:hover{
+      opacity: 0.5;
+  }
+}
+
+#prijslijst{
+    h2{
+        text-align: center;
+    }
+}
+
+
+#riena{
+        width:30%;
+        margin-bottom: 20px;
+        &:hover{
+        opacity: 1;
+    }
+}
+
+.pasfoto{
+    text-align: center;
+}
+
+
+#over{
+    text-align:center;
+.h3{
+    text-align: center;
+    margin-bottom: 30px;
+}
+}
+
+.row{
+    img{
+        &hover{
+        opacity:0.2;        
+        }
+    }
+}
+
+.col-md-4{
+       text-align: center;
+ }
+
+#plek{
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.indexrondjes{
+    float:none;
+}
+
+.fototekst{
+    min-height: 115px;
+}
+
+footer {
+  margin: 175px auto 0 auto;
+      background-color: #ccc;
+          border: 2px solid #222;
+    border-left: none;
+    border-right: none;
+  }
+  
+  .lijn{
+      border-top: 5px solid #aba;
+      padding-top: 20px;
+      margin: 30px auto 0px auto;
+  }
+  
+  .voettekst p{
+      text-align: left; 
+      margin: 15px 0;
+  }
+  
+  #contactscontainer{
+      margin: 0 auto;
+      display: inline-block;
+  }
+  
+  #provoetlogo{
+      width: 50%;
+  }
+  
+  .img-voettekst{
+      display: inline-block;
+  }
+  
+  .voettekst{
+      padding: 20px 0;
+      min-height:200px;
+    }
+  
+  .voettekstheel{
+
+  }
+  
+  
+  #provoet {
+      text-align: center;
+      margin: 0 0;  
+  }
+  
+  #rechsts{
+      text-align: right;
+  }
+  
+  .row{
+      margin-bottom: 25px;
+  }
+  
+  #fotospraktijk{
+      h2{
+          text-align: center;
+          font-family: '', sans-serif;
+          
+      }
+      p{
+          text-align: center;
+      }
+  }
+  
+  @media (max-width: 992px) {
+      #fotospraktijk{
+          img{
+              margin-bottom: 20px;
+          }
+          .row{
+      margin-bottom: 0px;
+  }
+      }
+  }
+  
+  
+  #lijstbehandel{
+
+ol {
+  color: #ccc;
+  vertical-align: middle;
+}
+
+ol li {
+  position: relative;
+  font: bold italic 45px/1.5 Helvetica, Verdana, sans-serif;
+  margin-bottom: 20px;
+}
+
+li p {
+  font: 12px/1.5 Helvetica, sans-serif;
+  padding-left: 60px;
+  color: #555;
+  vertical-align: center;
+}
+
+span {
+  position: absolute;
+}
+      
+  }
+  /*
+  .jumbotron{
+      .container{
+          border: 1px solid #1c1c1c;
+          background-color: #fff;
+          opacity: 0.4;
+      }
+      h1,p{
+          color: #1c1c1c;
+      }
+  }*/

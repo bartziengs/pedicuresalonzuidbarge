@@ -39,7 +39,7 @@ background-size: cover;
 
 
 #prijslijstjum{    
-background: url(../img/rik_stoel.jpg) no-repeat center center;
+background: url(../img/rik_stoel.JPG) no-repeat center center;
 height: 400px;
 background-size:cover;
 }

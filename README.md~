@@ -1,2 +1,2 @@
 # pedicuresalonzuidbarge
-My first website for my mom's company. Feel free to ask any questions!
+My first website for my mom's company. Made with netbeans and built upon the bootstrap framework. Feel free to ask any questions!

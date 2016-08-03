@@ -105,6 +105,12 @@ footer {
     margin-bottom: 20px; }
   #fotospraktijk .row {
     margin-bottom: 0px; } }
+@media (max-width: 992px) {
+  #behandeljum h1 {
+    font-size: 55px; } }
+@media (max-width: 768px) {
+  #behandeljum h1 {
+    font-size: 24px; } }
 #lijstbehandel ol {
   counter-reset: li;
   /* Initiate a counter */

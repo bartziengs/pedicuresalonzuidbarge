@@ -8,7 +8,7 @@ $(document).ready(function(){
 			$(".fotodiashow-a").fancybox({
 				helpers: {
 					title : {
-						type : 'outside'
+						type : 'over'
 					},
 					overlay : {
 						speedOut : 0
